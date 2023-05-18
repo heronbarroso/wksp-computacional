@@ -11,7 +11,7 @@ public class LacoWhile2 {
 				System.out.print(i+" ");
 				contador ++;
 			}
-			i++;
+			i++; 
 		}
 	}
 }
