@@ -25,10 +25,13 @@ public class FolhaPgto {
 		Funcionario funcionario = new Funcionario();
 		
 		boolean ok=true;
+		String menu;
+		
 		Scanner leitorMenu = new Scanner(System.in);
 		Scanner leitorNomeFuncionario = new Scanner(System.in);
 		Scanner leitorValores = new Scanner(System.in);
 		do {
+			System.out.println("-------------------IMPUT DADOS-------------------------------");
 			System.out.println("Folha de Pagamento dos Funcionarios");
 			System.out.println("Informe o Nome:");
 			funcionario.nome = leitorNomeFuncionario.nextLine();
@@ -38,6 +41,8 @@ public class FolhaPgto {
 			funcionario.qtdHorasTrabalhadas = leitorValores.nextFloat();
 			System.out.println("Informe a quantiade de horas Extras (ex.: 2,7): ");
 			funcionario.qtdHorasExtras = leitorValores.nextFloat();
+			System.out.println("-------------------IMPUT DADOS-------------------------------");
+
 			InserirLinhas(3);
 			
 			System.out.println("Calculando folha de pagamento ....");
@@ -61,9 +66,16 @@ public class FolhaPgto {
 			
 			InserirLinhas(3);
 			
+			System.out.println("Sair do programa? (s/n)");
+			menu=leitorMenu.next();
 			
-			break;
+			InserirLinhas(5);
+			
+			if(menu.equalsIgnoreCase("s") || menu.equalsIgnoreCase("y") ) ok = false;
+			
 		}while (ok);
+		
+		System.out.println("Bye!");
 
 
 	}
