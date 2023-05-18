@@ -1,6 +1,6 @@
 package pacote;
 
-public class LacoWhile2 {
+public class ExercicioMultiplo5 {
 
 	public static void main(String[] args) {
 		int i=1, multiplo=5, contador=0;
