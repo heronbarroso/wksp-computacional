@@ -15,10 +15,10 @@ public class ExercicioImputParImpar {
 		
 		while (par) 
 		{
-			System.out.println("Contador digitacao pares: "+cont);
 			System.out.println("Digite numeros pares pra contar e impar pra sair:");
 			i = leitor.nextInt();
 			par = ((i%2)==0);
+			if (par) cont++;
 			
 		
 		}
