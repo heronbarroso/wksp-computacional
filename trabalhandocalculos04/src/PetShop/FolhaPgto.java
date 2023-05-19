@@ -41,7 +41,7 @@ public class FolhaPgto {
 			funcionario.qtdHorasTrabalhadas = leitorValores.nextFloat();
 			System.out.println("Informe a quantiade de horas Extras (ex.: 2,7): ");
 			funcionario.qtdHorasExtras = leitorValores.nextFloat();
-			System.out.println("-------------------IMPUT DADOS-------------------------------");
+			System.out.println("------------------- FIM IMPUT DADOS--------------------------");
 
 			InserirLinhas(3);
 			
