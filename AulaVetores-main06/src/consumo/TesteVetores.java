@@ -26,6 +26,7 @@ public class TesteVetores {
 
 				
 		System.out.println("O total consumidos pelos aluno: "+total );
+		leitor.close();
 
 	}
 
