@@ -1,10 +1,6 @@
 # wksp-computacional
 FIAP codigos java modulo computacional thinking
 <table>
-<thead> 
-<th> dia </th>
-<th> evidencia </th>
-</thead> 
 <tbody>
 <tr>
 <tb> 220523</td>
@@ -14,6 +10,5 @@ FIAP codigos java modulo computacional thinking
 <tb> prox aula</td>
 <tb> </td>
 </tr>
-
 </tbody>
 </table>
